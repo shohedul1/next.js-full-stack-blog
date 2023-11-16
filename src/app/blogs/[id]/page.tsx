@@ -1,4 +1,5 @@
 import Comments from "@/components/comments";
+import FormComments from "@/components/form-comments";
 
 
 const BlogDetailPage = () => {
@@ -10,6 +11,7 @@ const BlogDetailPage = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, earum.
         </div>
         <Comments/>
+        <FormComments/>
     </div>
   )
 }
