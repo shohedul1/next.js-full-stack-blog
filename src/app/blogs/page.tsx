@@ -9,7 +9,7 @@ const BlogPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
            {
            posts.map(post=>(
-            <Link href={`/blogs/${post.id}`} className="bg-white p-4 rounded-md shadow-md">
+            <Link href={`/blogs/${post.id}`} key={post.id} className="bg-white p-4 rounded-md shadow-md">
                 <h2 className="text-xl font-bold">{post.title}</h2>
                 <p>white by: {post.username}</p>
             
