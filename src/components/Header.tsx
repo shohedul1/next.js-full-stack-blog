@@ -18,7 +18,7 @@ const Header = () => {
             </li>
             <li>
                 <Link 
-                href='/api/auth/signin'
+                href='api/auth/signin'
                 className='text-white hover:underline'>
                     Login
                 </Link>
