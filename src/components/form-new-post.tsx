@@ -10,7 +10,6 @@ const FormNewPost = () => {
     const [formData, setFormData] = useState<FormData>({
         title: '',
         content: '',
-        description:''
     });
 
     const handleChange = (e:ChangeEvent<HTMLInputElement | HTMLTextAreaElement>)=>{
