@@ -45,7 +45,7 @@ const FormNewPost = () => {
                 <input 
                 type="text" 
                 className={inputClass}
-                placeholder="Enter the title"
+                placeholder="Enter the description"
                 name="description"
                 value={formData.description} 
                 onChange={handleChange}/>
