@@ -42,16 +42,6 @@ const FormNewPost = () => {
 
             </div>
             <div className="mb-4">
-                <input 
-                type="text" 
-                className={inputClass}
-                placeholder="Enter the description"
-                name="description"
-                value={formData.description} 
-                onChange={handleChange}/>
-
-            </div>
-            <div className="mb-4">
                <ReactTextareaAutosize 
                minRows={5}
                name="content"
